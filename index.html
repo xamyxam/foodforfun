@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="DE">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Ernährungsplan</title>
+  <!--<link rel="stylesheet" href="style.css"/>-->
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/normalize.css">
+</head>
+
+<body>
+  <div class="container">
+    <h2 id="title">Was soll ich essen?</h1>
+
+      <div class="row">
+        <div id="description" class="nine columns">
+        </div>
+        <div class="three columns">
+          <button id="btnLangDe" class="button button-primary" onclick="changeLanguage('de')">Deutsch</button>
+          <button id="btnLangEn" class="button" onclick="changeLanguage('en')">Englisch</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div id="btnRow" class="twelve columns">
+        </div>
+        <div id="result" class="twelve columns">
+          <div id="contents"></div>
+        </div>
+      </div>
+  </div>
+  <!-- Need to import the js file as module to use import // live server needed to prevent CORS -->
+  <script type="module">
+    import { showRandomMeal, changeLanguage } from "./src/main.js";
+    // window loads the imported function in the current DOM, without it the button have no access
+    window.showRandomMeal = showRandomMeal;
+    window.changeLanguage = changeLanguage;
+  </script>
+</body>
+
+</html>

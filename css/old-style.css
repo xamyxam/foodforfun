@@ -1,0 +1,37 @@
+body {
+    background-color: black;
+    color: rgb(130, 250, 160);
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+    text-align: center;
+}
+
+.button {
+    display: block;
+    width: 60%;
+    padding: 30px;
+    margin: 10px auto;
+    font-size: 100%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(104, 101, 101);
+    border: 5px solid rgb(155, 249, 178);
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+/* Größere Buttons auf mobilen Geräten */
+@media only screen and (max-device-width: 600px){
+    .button {
+        width: 80%;
+        padding: 60px;
+        font-size: 96px;
+    }
+}
+
+.button:hover {
+    background-color: rgb(81, 81, 81);
+    color: rgb(130, 250, 160);
+    cursor: pointer;
+}
