@@ -23,3 +23,4 @@ The data are provided as JSON file not via a backend.
 - [x] Better UI 
 - [ ] More switches - eg. vegan, glutenfree 
 - [x] localization - de and eng
+test 133
