@@ -1,4 +1,4 @@
-{
+let en = {
     "breakfast": [
         {
             "name": "Smart egg with peppers, onions and spinach",

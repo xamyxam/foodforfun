@@ -1,7 +1,3 @@
-// import data and locatization file 
-import de from '../data/de.json' assert { type: 'json' };
-import en from '../data/en.json' assert { type: 'json' };
-import loc from '../data/localization.json' assert { type: 'json' };
 
 //set default location hash for localization
 location.hash = '#de'

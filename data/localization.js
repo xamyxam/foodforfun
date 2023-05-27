@@ -1,4 +1,4 @@
-{
+let loc = {
     "#en": {
         "nutrition": {
             "kcal": "Calories in Kilo",

@@ -1,4 +1,4 @@
-{
+let de = {
     "breakfast": [
         {
             "name": "Rührei mit Paprika, Zwiebeln und Spinat",
