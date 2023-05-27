@@ -1,4 +1,3 @@
-
 //set default location hash for localization
 location.hash = '#de'
 // localization of the meal plan
@@ -8,7 +7,6 @@ var mealPlan = lang === '#en' ? en : de
 //creating the button row dynamically from data. First objects has to be the types.
 function createBtnRow() {
     for(var key in mealPlan) {
-        console.log(key)
         var button = document.createElement("button")
         button.className = "button"
         button.id = "btn_" + key 
