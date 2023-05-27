@@ -20,6 +20,6 @@ The data are provided as JSON file not via a backend.
 
 ## TODO
 
-- [x] Better UI 
+- [x] Super Better UI
 - [ ] More switches - eg. vegan, glutenfree 
 - [x] localization - de and eng
